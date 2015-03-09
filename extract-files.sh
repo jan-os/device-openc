@@ -180,11 +180,6 @@ COMMON_WIFI="
 	"
 copy_files "$COMMON_WIFI" "system/lib/modules" "wifi"
 
-COMMON_WIFI_VOLANS="
-	ath6kl_sdio.ko
-	"
-copy_files "$COMMON_WIFI_VOLANS" "system/lib/modules/ath6kl-3.5" "wifi"
-
 COMMON_WLAN="
 	WCNSS_cfg.dat
 	WCNSS_qcom_cfg.ini
